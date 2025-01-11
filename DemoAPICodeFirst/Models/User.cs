@@ -12,6 +12,7 @@ namespace DemoAPICodeFirst.Models
         public string Email { get; set; }
         public DateTime CreatedDate { get; set; }
         public int Status { get; set; }
-        public Role Role { get; set; }
+        public Role? Role { get; set; }
+        public int RoleId { get; set; }
     }
 }
